@@ -1,6 +1,6 @@
 import subprocess
 
-def start_mlflow_server(host="0.0.0.0", port=5000, backend_uri="sqlite:///mlflow.db", artifact_root="./mlruns"):
+def start_mlflow_server(host="0.0.0.0", port=8000, backend_uri="sqlite:///mlflow.db", artifact_root="./mlruns"):
     """
     Starts an MLflow tracking server with authentication using --app-name basic-auth.
     
