@@ -68,4 +68,4 @@ jobs:
         with:
           app-name: 'mlflow-server'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5E00DA93447B431A917E7E1D373317B5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C94BD6DE05DE4E56A1E6B2AD8D0A89CD }}
