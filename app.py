@@ -16,7 +16,7 @@ def start_mlflow_server(host="0.0.0.0", port=8000, backend_uri="sqlite:///mlflow
             "mlflow", "server",
             "--host", host,
             "--port", str(port),
-            "--app-name", "basic-auth",
+            # "--app-name", "basic-auth",
             "--backend-store-uri", backend_uri,
             "--default-artifact-root", artifact_root
         ]
